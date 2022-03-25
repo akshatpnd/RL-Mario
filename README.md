@@ -8,3 +8,6 @@ Most of the setup for this project comes from the documentation for [Mario](http
 
 ## Results and Next Steps
 One big positive from this was that my laptop didn't die! Otherwise, by the 800000 step mark Mario was able to somewhat reliably complete the first level. I am certain that by better tuning I could make it so that it could go further; however, I do not possess the resources to really allow for much more training without risking the death of my laptop. Furthermore, I aim to better understand the PPO algorithm and implement it myself.
+
+## WARNING!
+If anyone comes across this wants to try running the code, please be aware that this is an extremely computationally expensive process. Model checkpoints are also stored every 100000 steps and end up being close to 300 MB in size. Unless you possess above average resources, I would suggest using Google Collab to run the code so that you do not put undesired stress on your machine.
